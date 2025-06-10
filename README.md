@@ -23,20 +23,6 @@ cp audio-toggle ~/.local/bin/
 chmod +x ~/.local/bin/audio-toggle
 ```
 
-### 3. Add to PATH (if not already done)
-
-Add this line to your `~/.bashrc` or `~/.zshrc`:
-
-```bash
-export PATH="$HOME/.local/bin:$PATH"
-```
-
-Then reload your shell:
-
-```bash
-source ~/.bashrc  # or source ~/.zshrc
-```
-
 ## Usage
 
 Simply run from anywhere:
